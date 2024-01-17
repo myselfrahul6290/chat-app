@@ -36,3 +36,78 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* style */
+
+.section{
+  width:80%;
+  margin:auto;
+ 
+}
+
+.message-box{
+  
+  margin:10px 5px;
+  
+}
+.message-box span{
+  display: flex;
+ text-align: right;
+  border-radius: 15%;
+}
+.message-box p{
+  margin: 0;
+  text-align: left;
+  padding: 3px 20px ;
+}
+
+.sender{
+  float: right;
+  text-align: left;
+}
+.sender p{
+  background: #44a900;
+
+}
+.sender span{
+  background: #f37777;
+
+}
+
+.reciver{
+  float: left;
+  text-align: left;
+}
+.reciver p{
+background: #fff;
+}
+.reciver span{
+  background: #94a1bc;
+}
+
+
+
+
+.sendMsgInput{
+  position: absolute;
+  bottom: 2vh;
+  display: flex;
+}
+.sendMsgInput input{
+  width: 500px;
+  padding: 10px;
+}
+.sendMsgInput button{
+  padding: 10px;
+}
+
+.Main{
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  background: #949494;
+  overflow-y: scroll;
+  width:100%;
+  
+}

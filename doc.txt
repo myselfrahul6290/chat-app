@@ -1,0 +1,4 @@
+Authentication
+1. npm i firebase
+2. npm i react-firebase-hooks
+3. npm i react-google-button
